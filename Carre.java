@@ -5,8 +5,6 @@ public class Carre extends Forme2d
     public Carre(float cote) 
     {
         this.cote = cote;
-        this.surface = this.calculerSurface();
-        this.perimetre = this.calculerPerimetre();
     }
 
     @Override

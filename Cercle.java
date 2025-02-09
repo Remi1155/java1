@@ -6,8 +6,6 @@ public class Cercle extends Forme2d
     public Cercle(float rayon) 
     {
         this.rayon = rayon;
-        this.perimetre = this.calculerPerimetre();
-        this.surface = this.calculerSurface();
     }
 
     @Override
